@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Interprete Jison</title>
+  <link rel='stylesheet' href='https://semantic-ui.com/dist/semantic.min.css'>
+  <link rel="stylesheet" href="../CSS/index.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.35.0/codemirror.css'>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="../JS/viz.js"></script>
+  <script  src="../JS/Gramatica/gramatica.js"></script>
+  <script  src="../JS/Errores/L_Error.js"></script>
+  <script  src="../JS/Errores/N_Error.js"></script>
+  <script src="../JS/AST/Interprete.js"></script>
+  <script src="../JS/TS/Pila.js"></script>
+  <script src="../JS/TS/Simbolo.js"></script>
+  <script src="../JS/AST/Operador.js"></script>
+  <script src="../JS/AST/Resultado.js"></script>
+  <script src="../JS/TS/TS.js"></script>
+  
+</head>
+<body>
+  <script  src="../JS/Gramatica/gramatica.js"></script>
+  <h1>Interprete Jison</h1>
+<!-- partial:index.partial.html -->
+<div class="ui small form segment">
+  <div id="tabs">    
+    <div class="ui  menu tabsName">
+       <div class="ui label blue item">
+         <i class="file outline icon"></i> Paginas:
+      </div>
+      <a class="item tabx" id="tAdd">
+        <i class="add square icon"></i></a>
+    </div>
+  </div>    
+</div>
+<div class="ui dimmer modals page">
+  <div class="ui small modal">    
+    <div class="header">
+      Cerrando..
+    </div>
+    <div class="content">
+      <p>¿Esta seguro de cerrar esta página?</p>
+    </div>
+    <div class="actions">
+      <div class="ui positive right labeled icon button">
+        Si
+        <i class="checkmark icon"></i>
+      </div>
+      <div class="ui negative button right labeled icon button">
+        No
+        <i class="close icon"></i>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+<div style="overflow-x: scroll;" id="graphviz_svg_div"><h1>Reporte de AST</h1><hr></div>
+
+<script src="../JS/viz.js"></script> 
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
+<script src='https://semantic-ui.com/dist/semantic.min.js'></script>
+<script  src="../JS/index.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.35.0/codemirror.js'></script>
+<script src='https://codemirror.net/mode/javascript/javascript.js'></script>
+
+
+</body>
+</html>
+

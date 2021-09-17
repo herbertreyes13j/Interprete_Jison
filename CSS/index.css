@@ -1,0 +1,7 @@
+a.tab{position:relative;padding-right: 25px!important;}
+.btnx{color:#ccc;top:10px;right:1px;position:absolute;}
+.btnx:hover{color:#f00;transition: all 0.8s ease;}
+.tabc{position:relative!important;}
+.segment{min-height:605px;}
+/*.menu.tabsName{overflow: overlay;
+  height: 35px;}*/
